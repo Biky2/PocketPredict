@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://pocketpredict.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://pocket-predict.vercel.app/';
   
   const routes = [
     '',

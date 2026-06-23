@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pocketpredict.com/sitemap.xml
+Sitemap: https://pocket-predict.vercel.app/sitemap.xml

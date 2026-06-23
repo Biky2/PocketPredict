@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'freelancer finance',
     'personal finance tool'
   ],
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://pocketpredict.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://pocket-predict.vercel.app/'),
   alternates: {
     canonical: '/'
   },
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'PocketPredict Finance - Smart Financial Planning Calculators',
     description: 'Free, prediction-enhanced calculators for freelancers. Run DTI loan checks, compare snowball vs avalanche payoff, and project compounding emergency savings.',
-    url: 'https://pocketpredict.com',
+    url: 'https://pocket-predict.vercel.app/',
     siteName: 'PocketPredict',
     locale: 'en_US',
     type: 'website',
     images: [
       {
-        url: 'https://pocketpredict.com/og-image.png',
+        url: 'https://pocket-predict.vercel.app/n/og-image.png',
         width: 1200,
         height: 630,
         alt: 'PocketPredict finance calculators'
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'PocketPredict Finance - Smart Calculators',
     description: 'Estimate loan approval odds and optimize debt payoff paths with zero signup barriers.',
-    images: ['https://pocketpredict.com/og-image.png'],
+    images: ['https://pocket-predict.vercel.app/n/og-image.png'],
   },
   robots: {
     index: true,
@@ -76,7 +76,7 @@ export default function RootLayout({
     '@type': 'FinancialProduct',
     'name': 'PocketPredict Smart Finance Calculators',
     'description': 'Free personal finance calculators featuring Debt-to-Income (DTI) mortgage approval simulations, Snowball vs. Avalanche payoff timelines, and HYSA compound growth projections.',
-    'url': 'https://pocketpredict.com',
+    'url': 'https://pocket-predict.vercel.app/',
     'offers': {
       '@type': 'Offer',
       'price': '0',
@@ -85,7 +85,7 @@ export default function RootLayout({
     'provider': {
       '@type': 'Organization',
       'name': 'PocketPredict',
-      'url': 'https://pocketpredict.com'
+      'url': 'https://pocket-predict.vercel.app/'
     }
   };
 
